@@ -59,7 +59,7 @@ Two genesis protocols are specified. Both produce a sovereign society LCT with t
 
 A single entity MAY found a society. The process:
 
-```
+```bibtex
 1. Founder entity SHALL hold a valid LCT (self-issued is sufficient at genesis)
 2. Founder SHALL generate or select an Ed25519 keypair for the society itself
 3. Founder SHALL publish a society charter (RDF graph) containing:
@@ -86,7 +86,7 @@ A single entity MAY found a society. The process:
 
 Two or more existing sovereign societies MAY agree to form a higher-order society. The process:
 
-```
+```rdfs
 1. Existing societies A, B, [C, ...] SHALL each delegate a representative entity
    to participate in genesis. The representative MUST hold a valid LCT
    issued by or recognized in the delegating society.
@@ -131,7 +131,7 @@ Following discovery, the two societies (A and B) negotiate which of three patter
 
 #### Option 1: Retain + Exchange (most common, analogous to international trade)
 
-```
+```txt
 A and B both retain their own ATP reification policies.
 A and B negotiate an exchange rate (ATP_A : ATP_B) for value transfers.
 The exchange rate MAY be:
@@ -144,7 +144,7 @@ Neither society's sovereignty is impaired.
 
 #### Option 2: Adoption (one society uses the other's ATP, analogous to dollarization)
 
-```
+```rtf
 Society A SHALL declare A's ATP reification policy obsolete for new issuance.
 A SHALL adopt B's ATP as A's currency.
 A's existing ATP balance SHALL be redeemed or grandfathered per A's amendment process.
@@ -156,7 +156,7 @@ This is sovereign — A chose this and can reverse it by adopting another societ
 
 #### Option 3: Federation with Shared Currency (Eurozone pattern)
 
-```
+```mkdn
 A and B agree to form (or join) a higher-order society D per §2.2.
 D's charter includes a shared ATP reification policy (D's currency).
 A and B MAY:
@@ -268,7 +268,7 @@ A constituent society of a federation MAY exit the federation. A standalone soci
 
 Society A is a constituent of federation D. A wishes to exit D.
 
-```
+```adoc
 1. A SHALL announce intent-to-secede to D, with reason recorded in A's ledger
 2. A SHALL provide notice period per D's charter (default: 90 days if unspecified)
 3. During the notice period:
@@ -289,7 +289,7 @@ Society A is a constituent of federation D. A wishes to exit D.
 
 D's charter SHOULD specify dissolution procedure. If unspecified, default:
 
-```
+```rtf
 1. Dissolution requires the same threshold as charter amendment (e.g., supermajority of constituents)
 2. Upon ratified dissolution:
    - D's treasury SHALL be distributed to constituents per charter formula (default: pro-rata by contribution)
