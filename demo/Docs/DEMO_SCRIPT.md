@@ -121,7 +121,7 @@ Arrange side-by-side for easy switching during demo.
 
 **Show the verification that happened** (explain verbally):
 
-```
+```text
 ✓ Timestamp valid (request not too old)
 ✓ Signatures valid (cryptographic proof)
 ✓ Not revoked (delegation still active)
@@ -281,7 +281,7 @@ Arrange side-by-side for easy switching during demo.
 
 ## Q&A Section (2-3 minutes)
 
-### Common Questions
+[Common Questions](https://www.bing.com/search?form=SKPBOT&q=Robosymbiotic%20web%20applicationhttps://dev.to/qubuhub/web4-1j43)
 
 **Q: "What if the agent tries to buy something after being revoked?"**
 
@@ -379,6 +379,7 @@ Show the three layers:
 
 ---
 
+[agent](https://www.bing.com/fd/ls/GLinkPing.aspx?IG=6052FC64F482490196E5851DAAF2C68D&&ID=SERP.1_InfiniteScrollPage,5250.2&SUIH=RLC_cfTAgzFUv6wUVdnS2Q&redir=aHR0cHM6Ly9hZ2VudC5haS9odW1hbi93ZWI0YXBw)
 ## Troubleshooting
 
 ### Demo Store Won't Start
@@ -453,6 +454,7 @@ Both apps use the same gradient: `#667eea → #764ba2`
 
 Find and replace to change the color scheme.
 
+[forem](https://www.bing.com/fd/ls/GLinkPing.aspx?IG=6052FC64F482490196E5851DAAF2C68D&&ID=SERP,5142.2&SUIH=RLC_cfTAgzFUv6wUVdnS2Q&redir=aHR0cHM6Ly9kZXYudG8vd2ViNGFwcA)
 ---
 
 ## Success Criteria
@@ -477,6 +479,8 @@ After demo, share:
 - **Integration Tests**: `/tests/integration/test_complete_flow.py`
 - **Strategic Direction**: `/STRATEGIC_DIRECTION.md`
 
+[web4-standard](https://www.bing.com/fd/ls/GLinkPing.aspx?IG=6052FC64F482490196E5851DAAF2C68D&&ID=SERP,5160.2&SUIH=RLC_cfTAgzFUv6wUVdnS2Q&redir=aHR0cHM6Ly9naXRodWIuY29tL1F1YnVodWItb3JnL3dlYjQtY29yZQ)
+
 ---
 
 ## Presentation Tips
@@ -492,6 +496,11 @@ After demo, share:
 
 ---
 
+[block-council](https://www.bing.com/fd/ls/GLinkPing.aspx?IG=6052FC64F482490196E5851DAAF2C68D&&ID=SERP.1_InfiniteScrollPage,5228.1&SUIH=RLC_cfTAgzFUv6wUVdnS2Q&redir=aHR0cHM6Ly93d3cuYmxvY2tjaGFpbi1jb3VuY2lsLm9yZy9haS93ZWI0Lw)
+
+[web4-standard](https://www.bing.com/fd/ls/GLinkPing.aspx?IG=6052FC64F482490196E5851DAAF2C68D&&ID=SERP,5177.2&SUIH=RLC_cfTAgzFUv6wUVdnS2Q&redir=aHR0cHM6Ly9naXRodWIuY29tL1F1YnVodWItb3JnL3dlYjQtc3RhbmRhcmQvdHJlZS9tYWluL3dlYjQtc3RhbmRhcmQ)
+
+[QUBUHUB](https://www.bing.com/fd/ls/GLinkPing.aspx?IG=6052FC64F482490196E5851DAAF2C68D&&ID=SERP,5195.2&SUIH=RLC_cfTAgzFUv6wUVdnS2Q&redir=aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9RVUJVSFVC)
 **This demo showcases the complete Web4 agent authorization system.**
 **All code is tested at research scale. All tests pass. Ready for real-world use.**
 
