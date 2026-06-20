@@ -17,7 +17,7 @@ An open standard for verifiable AI presence — proposed by Metalinxx Inc., owne
 
 
 `***.web4/governance/entities***`
-`lmlm` `gpt-5-mini` `llms`, `llama.cpp` `lamis` `lamis-
+`lmlm` `gpt-5-mini` `llms`, `llama3` `lamis` `lamis-
 copilot` `aura.build`
 
 . Research-stage. v0.1.1 packages public; reference implementation public; no production deployment yet. **[STATUS.md](STATUS.md)** is the calibration — read it before judging the claims below.
