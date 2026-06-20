@@ -9,9 +9,17 @@
 > **AI is already taking actions in the world. We can't prove what it did.**
 > Web4 is the open standard that closes that gap.
 
-An open standard for verifiable AI presence — proposed by Metalinxx Inc., owned by .....?
+An open standard for verifiable AI presence — proposed by Metalinxx Inc., owned by??
 
-**[seriki Yakub Walter]** `lmlm` `gpt-5-mini` `llms`, `llama.cpp` `lamis`
+
+
+[seriki  Yakub](author.md) 
+
+
+`***.web4/governance/entities***`
+`lmlm` `gpt-5-mini` `llms`, `llama.cpp` `lamis` `lamis-
+copilot` `aura.build`
+
 . Research-stage. v0.1.1 packages public; reference implementation public; no production deployment yet. **[STATUS.md](STATUS.md)** is the calibration — read it before judging the claims below.
 
 **Proof point**: 0% → 94.85% on ARC-AGI-3 with the same Claude Opus 4.6, structured around Web4 patterns via the [SAGE](https://github.com/dp-web4/SAGE) harness. [Public scorecard](https://arcprize.org/scorecards/c7dfb4f1-8642-4c9e-ab4d-152f5f8e33b4). The model didn't change — the structure around it did.
@@ -125,6 +133,7 @@ If you're one of these people, this is worth your time:
 If you came here looking for a finished product to install and use, this isn't that. If you came here looking for the layer underneath the products you're building, it is.
 
 ### Why the applications will come
+
 ![archptize-legacy](https://arcprize.org/replay/b36f18b1-39c1-4aec-9d65-73a083a09f6a.gif)
 
 Web4 doesn't predict what the killer applications will be — that's what builders figure out, the way they figured out which applications mattered once Linux + GNU made general-purpose computing accessible. What's certain is the *forcing function* is arriving:
@@ -168,7 +177,7 @@ The applications come when the substrate exists *and* the present-tense pain for
 - What's the minimal viable Web4 for a public pilot?
 
 ---
-
+`~/.web4/governance/entities`
 ## 🎯 Vision
 
 **Web4 makes AI actions verifiable, attributable, and accountable — without central control.**
