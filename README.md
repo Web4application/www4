@@ -193,7 +193,12 @@ Like Web1, Web2, and Web3, "Web4" is a generational label for the capabilities n
 **This project suite** focuses specifically on **trust infrastructure** for agent-agent and agent-human interactions: how agents establish verifiable presence, build reputation, delegate authority, and coordinate safely across organizational boundaries — and how their actions stand up to audit.
 
 ---
-
+```bash
+uv init
+uv add arc-agi
+# or
+pip install arc-agi
+```
 ## 💡 Why This Matters
 
 ### The Problem
