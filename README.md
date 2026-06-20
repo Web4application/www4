@@ -11,7 +11,7 @@
 
 An open standard for verifiable AI presence — proposed by Metalinxx Inc., owned by .....?
 >
-> **[seriki Yakub Walter]** `lmlm` `gpt-5-mini` `llms`, `llama.cpp`
+> **[seriki Yakub Walter]** `lmlm` `gpt-5-mini` `llms`, `llama.cpp` `lamis`
 . Research-stage. v0.1.1 packages public; reference implementation public; no production deployment yet. **[STATUS.md](STATUS.md)** is the calibration — read it before judging the claims below.
 
 **Proof point**: 0% → 94.85% on ARC-AGI-3 with the same Claude Opus 4.6, structured around Web4 patterns via the [SAGE](https://github.com/dp-web4/SAGE) harness. [Public scorecard](https://arcprize.org/scorecards/c7dfb4f1-8642-4c9e-ab4d-152f5f8e33b4). The model didn't change — the structure around it did.
@@ -41,7 +41,7 @@ If you want a fast read on whether this is real, in order:
 5. [**docs/specs/heterogeneous-identity.md**](docs/specs/heterogeneous-identity.md) — multi-factor identity as a constellation. Answers "what stops a hardware vendor from gating LCT access?" structurally.
 6. [**web4-standard/core-spec/inter-society-protocol.md**](web4-standard/core-spec/inter-society-protocol.md) — society genesis (self-bootstrapped + federation-based), first-contact (3 sovereign options), ATP reification sovereignty, secession.
 7. [**web4-standard/core-spec/society-roles.md**](web4-standard/core-spec/society-roles.md) — 7 base-mandatory roles + context-mandatory (forced by outward role) + optional, with fractal composability and audit implications.
-8. [**forum/kimi2_6_review.md**](forum/kimi2_6_review.md) — independent cross-model review (Kimi 2.6) with three rounds of dialogue. External scrutiny on the work, raw and verbatim.
+8. [**forum/kimi2_6_review**](forum/kimi2_6_review.mdx) — independent cross-model review (Kimi 2.6) with three rounds of dialogue. External scrutiny on the work, raw and verbatim.
 
 ---
 
@@ -139,9 +139,9 @@ The applications come when the substrate exists *and* the present-tense pain for
 
 ## Status Snapshot (2026-05-13)
 
-### Where it landed publicly
-- **AI Demo Day 4** (2026-04-26): Web4 presented as "verifiable presence" for agentic AI. Slides + narration archived at https://4-gov.org/demo
-- **Cross-model independent review** (2026-05-13): Kimi 2.6 reviewed the repo + specs across three rounds of dialogue. Verbatim transcript at [`forum/kimi2_6_review.md`](forum/kimi2_6_review.md). Scoring: architectural coherence 8.5/10, bootstrap story 8/10, spec completeness intra-society 7/10, spec completeness inter-society 4/10. The dialogue produced two new spec docs (see below).
+### Where it [landed publicly]
+- **AI Demo Day 4** (2026-04-26): Web4 presented as "verifiable presence" for agentic AI. Slides + narration archived at (https://4-gov.org/demo)
+- **Cross-model independent review** (2026-05-13): Kimi 2.6 reviewed the repo + specs across three rounds of dialogue. Verbatim transcript at [`forum/kimi2_6_review.mdx`](forum/kimi2_6_review.mdx). Scoring: architectural coherence 8.5/10, bootstrap story 8/10, spec completeness intra-society 7/10, spec completeness inter-society 4/10. The dialogue produced two new spec docs (see below).
 
 ### Implementation status
 - **Published artifacts** (2026-04-28): `web4-core` and `web4-trust-core` on crates.io; `web4-core` and `web4-trust` on PyPI. **Current: v0.1.1**, AGPL-3.0-or-later. (v0.1.0 was yanked from crates.io due to a Python wheel import-path defect and a stale tensor docstring; both fixed in v0.1.1.) See [STATUS.md](STATUS.md) for the full version table and [docs/proof/PUBLISHED.md](docs/proof/PUBLISHED.md) for the publish trail.
