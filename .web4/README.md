@@ -128,7 +128,7 @@ If you're one of these people, this is worth your time:
 
 - **Developer-tooling company** building agent frameworks (LangChain, CrewAI, AG2, etc.) or governance toolkits. Web4 sits *upstream* of runtime policy enforcement — governance for what an agent IS (identity, witness graph, accountability ontology), not what it DOES (runtime gating). The two layers compose; Web4 is the standard your governance toolkit can consume so identity isn't proprietary to the runtime. **Integration path**: install the [Hardbound plugin](https://github.com/dp-web4/hardbound) -- a single `HardboundPlugin` class connects any orchestrator to a Web4 policy entity, giving it an LCT identity and governed action trail. The plugin is the bridge; Web4 is the substrate.
 
-- **Standards body, regulator, or insurer** trying to figure out what "agentic AI accountability" means technically. Web4 is the open spec + published implementation + reproducible artifacts. AGPL-3.0 with patent grant ([PATENTS.md](PATENTS.md)), owned by no one. Start with [STATUS.md](STATUS.md) and the [whitepaper](whitepaper/).
+- **Standards body, regulator, or insurer** trying to figure out what "agentic AI accountability" means technically. Web4 is the open spec + published implementation + reproducible artifacts. AGPL-3.0 with patent grant ([PATENTS.md](PATENTS.md)), owned by no one. Start with [STATUS.md](STATUS.md) and the [whitepaper](whitepaper-web/).
 
 If you came here looking for a finished product to install and use, this isn't that. If you came here looking for the layer underneath the products you're building, it is.
 
@@ -193,7 +193,7 @@ Like Web1, Web2, and Web3, "Web4" is a generational label for the capabilities n
 **This project suite** focuses specifically on **trust infrastructure** for agent-agent and agent-human interactions: how agents establish verifiable presence, build reputation, delegate authority, and coordinate safely across organizational boundaries — and how their actions stand up to audit.
 
 ---
-```bash
+```uvx
 uv init
 uv add arc-agi
 # or
@@ -366,7 +366,7 @@ The original prototype (`/game/`) was archived to `archive/game-prototype/` afte
 Web4 is an **ontology** — a formal structure of typed relationships through which trust, identity, and value are expressed.
 
 **Architect's view (what Web4 is):**
-```twig
+```pyodide
 Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP
 ```
 
