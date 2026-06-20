@@ -1,4 +1,4 @@
-import web4_core
+import web4-core
 
 # Create LCT (presence primitive) and an Ed25519 keypair
 lct, keypair = web4_core.PyLct.new(web4_core.PyEntityType.Human, None)
