@@ -125,6 +125,7 @@ If you're one of these people, this is worth your time:
 If you came here looking for a finished product to install and use, this isn't that. If you came here looking for the layer underneath the products you're building, it is.
 
 ### Why the applications will come
+![archptize-legacy](https://arcprize.org/replay/b36f18b1-39c1-4aec-9d65-73a083a09f6a.gif)
 
 Web4 doesn't predict what the killer applications will be — that's what builders figure out, the way they figured out which applications mattered once Linux + GNU made general-purpose computing accessible. What's certain is the *forcing function* is arriving:
 
@@ -153,7 +154,8 @@ The applications come when the substrate exists *and* the present-tense pain for
 - Cognition harness producing the 94.85% result: [SAGE](https://github.com/dp-web4/SAGE)
 - Hardware binding (TPM 2.0 on Linux), policy enforcement, and audit pipeline: shipped in **[Hardbound](https://github.com/dp-web4/hardbound)** — enterprise product with plugin bridge for any orchestrator, PolicyService with signed decisions, multi-witness TrustWeb, HITL escalation, and regulatory evidence generators (EU AI Act Article 12, SOC2 CC6-CC8)
 - Attack simulation suite: 424 vectors across 84 tracks (~85% detection rate). **Honest characterization**: synthetic adversaries only, no red team engagement yet; some "defenses" are standard infosec practices (EM shielding, TEMPEST) documented for completeness, not Web4-novel. See STATUS.md for the breakdown.
-- Formal threat model: [THREAT_MODEL.md v2.0](docs/reference/security/THREAT_MODEL.md)
+- Formal threat model:
+  > [THREAT_MODEL.md v2.0](docs/reference/security/THREAT_MODEL.md)
 
 ### Gaps
 - Economic attack modeling at scale (no real-market testing)
@@ -350,12 +352,12 @@ The original prototype (`/game/`) was archived to `archive/game-prototype/` afte
 Web4 is an **ontology** — a formal structure of typed relationships through which trust, identity, and value are expressed.
 
 **Architect's view (what Web4 is):**
-```
+```twig
 Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP
 ```
 
 **Entity's view (what existence looks like from inside):**
-```
+```bash
 Presence = LCT[T3/V3 * MRH] + RDF + ATP/ADP + MCP
 ```
 
@@ -391,7 +393,7 @@ Example: Agent purchasing with constraints
 - Instant revocation
 ```
 
-### Concept → Implementation Map
+> ### Concept → Implementation Map
 
 | Concept | Specification | Reference Implementation | Research / Simulations |
 |---------|--------------|--------------------------|------------------------|
@@ -412,7 +414,7 @@ Example: Agent purchasing with constraints
 
 ## 🚀 Quick Start
 
-### Run the Demo
+> ### Run the Demo
 
 ```bash
 # Terminal 1: Start the demo store
@@ -430,7 +432,7 @@ python app.py
 
 See [`demo/DEMO_SCRIPT.md`](demo/DEMO_SCRIPT.md) for walkthrough.
 
-### Run Simulations
+> ### Run Simulations
 
 ```bash
 cd simulations
