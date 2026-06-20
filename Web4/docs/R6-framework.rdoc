@@ -1,10 +1,10 @@
-R6 Framework
+[R6 Framework]
 
-Overview
+[Overview]
 
 R6 Framework is a modular, extensible framework designed for building scalable Web4, AI, blockchain, and distributed applications.
 
-The framework follows six core principles:
+[The framework follows six core principles]
 
 1. Reliability
 2. Resilience
@@ -17,16 +17,16 @@ These principles form the foundation of the R6 architecture.
 
 ⸻
 
-Architecture
+[Architecture]
 
-Applications
+[Applications]
       │
       ▼
-R6 API Layer
+[R6 API Layer]
       │
-      ▼
-R6 Service Layer
-      │
+
+[R6 Service Layer]
+      |
       ├── Identity Module
       ├── Trust Module
       ├── AI Module
@@ -35,13 +35,13 @@ R6 Service Layer
       └── Messaging Module
       │
       ▼
-Infrastructure Layer
+[Infrastructure Layer]
 
-Core Components
+[Core Components]
 
-R6 Core
+[R6 Core]
 
-Provides:
+[Provides:]
 
 * Configuration management
 * Dependency injection
@@ -49,16 +49,16 @@ Provides:
 * Event bus
 * Plugin system
 
-R6 Identity
+R6 [Identity]
 
-Provides:
+[Provides:]
 
 * DID support
 * Authentication
 * Authorization
 * User profiles
 
-R6 Trust
+[R6 Trust]
 
 Provides:
 
@@ -67,7 +67,7 @@ Provides:
 * Attestation verification
 * Risk analysis
 
-R6 AI
+[R6 AI]
 
 Provides:
 
@@ -76,7 +76,7 @@ Provides:
 * Tool execution
 * Memory systems
 
-R6 Blockchain
+[R6 Blockchain]
 
 Provides:
 
@@ -85,7 +85,7 @@ Provides:
 * Token management
 * Chain communication
 
-R6 Storage
+[R6 Storage]
 
 Provides:
 
@@ -94,7 +94,7 @@ Provides:
 * Database abstraction
 * Cache management
 
-R6 Messaging
+[R6 Messaging]
 
 Provides:
 
@@ -105,7 +105,7 @@ Provides:
 
 ⸻
 
-Design Goals
+[Design Goals]
 
 * Modular architecture
 * High scalability
