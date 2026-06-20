@@ -1,0 +1,48 @@
+{
+  "dax_version": "1.0",
+  "id": "web4.assistant",
+  "name": "Assistant",
+  "type": "ai-agent",
+  "author": "KUBU LEE",
+  "entrypoint": "main.py",
+
+  "model": {
+    "provider": "local",
+    "name": "llama3"
+  },
+
+  "memory": {
+    "enabled": true,
+    "storage": "sqlite"
+  },
+
+  "permissions": [
+    "chat",
+    "memory",
+    "web_search",
+    "filesystem"
+  ],
+
+  "tools": [
+    {
+      "name": "calculator",
+      "module": "tools.calculator"
+    },
+    {
+      "name": "web_search",
+      "module": "tools.search"
+    }
+  ],
+
+  "workflows": [
+    {
+      "name": "chat",
+      "trigger": "message"
+    }
+  ],
+
+  "signature": {
+    "algorithm": "ed25519",
+    "value": ""
+  }
+}
