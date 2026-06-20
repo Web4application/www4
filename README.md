@@ -497,6 +497,17 @@ web4/
 ├── STATUS.md                          # Project status
 ├── SECURITY.md                        # Security research status
 └── CONTRIBUTING.md                    # How to contribute
+
+www4
+ ├── web4-core
+ ├── web4-trust-core
+ ├── web4-agent
+ ├── web4-consciousness
+ ├── web4-chain
+ ├── web4-mcp
+ ├── web4-ai
+ ├── web4-node
+ └── web4-cloud
 ```
 
 ---
