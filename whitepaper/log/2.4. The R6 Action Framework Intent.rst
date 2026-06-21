@@ -2,7 +2,7 @@
 
   A fundamental operational principle in WEB4 is that all actions are purposeful compositions of intent and
   context. The R6 Action Framework formalizes this principle through the equation:
-
+ 
   Rules + Role + Request + Reference + Resource → Result
 
   This framework ensures that every action within the WEB4 ecosystem—from simple data queries to complex governance
