@@ -15,7 +15,7 @@ An open standard for verifiable AI presence — proposed by Metalinxx Inc., owne
 
 [seriki  Yakub](author.md) 
 
-
+[web4.ai](https://web4.ai)
 `***.web4/governance/entities***`
 `lmlm` `gpt-5-mini` `llms`, `llama3` `lamis` `lamis-
 copilot` `aura.build`
@@ -26,8 +26,8 @@ copilot` `aura.build`
 ```jsonl
 {
   "@context": {
-    "web4": "https://web4/ontology#",
-    "lct": "https://web4/lct/",
+    "web4": "https://web4.0/ontology#",
+    "lct": "https://web4.0/lct/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",    "Dimension": "web4:Dimension",
     "T3Tensor": "web4:T3Tensor",
     "V3Tensor": "web4:V3Tensor",
