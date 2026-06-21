@@ -1,7 +1,7 @@
 {
   "@context": {
-    "web4": "https://web4.io/ontology#",
-    "lct": "https://web4.io/lct/",
+    "web4": "https://web4.0/ontology#",
+    "lct": "https://web4.0/lct/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "type": "@type",
     "id": "@id",
