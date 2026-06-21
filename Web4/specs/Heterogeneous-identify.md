@@ -1,4 +1,4 @@
-# Heterogeneous Identity: Multi-Factor Witnessing as a Constellation
+# Heterogeneous Identity: Multi-Factor Witnessing as a Constellation 
 
 **Status**: Design note. Reference implementation in active development across the dp-web4 fleet (`private-context/tools/web4_fleet_bootstrap.py` for bootstrap and signed peer-witness scan; `claude-code/plugins/web4-governance/` v1.1.0 for session→host LCT witnessing). Public interfaces will follow the patterns described here.
 
