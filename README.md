@@ -22,8 +22,28 @@ copilot` `aura.build`
 
 . Research-stage. v0.1.1 packages public; reference implementation public; no production deployment yet. **[STATUS.md](STATUS.md)** is the calibration — read it before judging the claims below.
 
-**Proof point**: 0% → 94.85% on ARC-AGI-3 with the same Claude Opus 4.6, structured around Web4 patterns via the [SAGE](https://github.com/dp-web4/SAGE) harness. [Public scorecard](https://arcprize.org/scorecards/c7dfb4f1-8642-4c9e-ab4d-152f5f8e33b4). The model didn't change — the structure around it did.
-
+**Proof point**: 0% → 94.85% on ARC-AGI-3 with the same Claude Opus 4.6, structured around Web4 patterns via the [SAGE](https://github.com/web4application/SAGE) harness. [Public scorecard](https://arcprize.org/scorecards/c7dfb4f1-8642-4c9e-ab4d-152f5f8e33b4). The model didn't change — the structure around it did.
+```jsonl
+{
+  "@context": {
+    "web4": "https://web4/ontology#",
+    "lct": "https://web4/lct/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",    "Dimension": "web4:Dimension",
+    "T3Tensor": "web4:T3Tensor",
+    "V3Tensor": "web4:V3Tensor",
+    "DimensionScore": "web4:DimensionScore",    "entity": { "@id": "web4:entity", "@type": "@id" },
+    "role": { "@id": "web4:role", "@type": "@id" },
+    "dimension": { "@id": "web4:dimension", "@type": "@id" },
+    "subDimensionOf": { "@id": "web4:subDimensionOf", "@type": "@id" },    "score": { "@id": "web4:score", "@type": "xsd:decimal" },
+    "observedAt": { "@id": "web4:observedAt", "@type": "xsd:dateTime" },    "talent": { "@id": "web4:talent", "@type": "xsd:decimal" },
+    "training": { "@id": "web4:training", "@type": "xsd:decimal" },
+    "temperament": { "@id": "web4:temperament", "@type": "xsd:decimal" },
+    "valuation": { "@id": "web4:valuation", "@type": "xsd:decimal" },
+    "veracity": { "@id": "web4:veracity", "@type": "xsd:decimal" },
+    "validity": { "@id": "web4:validity", "@type": "xsd:decimal" }
+  }
+}
+```
 ## Architectural shape (what Web4 actually is)
 
 Three properties define the shape, and each has a normative spec:
