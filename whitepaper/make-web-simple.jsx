@@ -3,7 +3,7 @@
 # make-web-simple.sh - Generate simple single-page web version of whitepaper
 # Usage: ./make-web-simple.sh
 
-echo "Building Web4 whitepaper web version (simple)..."
+echo "Building Web4 paperweb version (simple)..."
 
 OUTPUT_DIR="build/web"
 BUILD_DIR="build"
