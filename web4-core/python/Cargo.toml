@@ -13,7 +13,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 web4-core = { path = ".." }
-pyo3 = { version = "0.22", features = ["extension-module"] }
+pyo3 = { version = "0.29", features = ["extension-module"] }
 uuid = { version = "1.6", features = ["v4", "serde"] }
 
 [build-dependencies]
